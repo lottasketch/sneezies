@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sneezies - Local Script Workspace</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <a class="brand" href="#top">Sneezies<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#workspace">Workspace</a>
+        <a href="#safety">Safety</a>
+        <a href="#getting-started">Getting started</a>
+      </nav>
+      <a class="button quiet" href="#getting-started">Open locally</a>
+    </header>
+    <section class="hero" id="top">
+      <p class="eyebrow">LOCAL SCRIPT WORKSPACE</p>
+      <h1>Write. Check. Run.<br><em>Keep it local.</em></h1>
+      <p class="lede">Sneezies is a small desktop workspace for Lua, Python, and JavaScript scripts you own.</p>
+      <div class="actions"><a class="button primary" href="#getting-started">Get started</a><a class="text-link" href="#safety">How safety checks work -></a></div>
+    </section>
+    <section class="workspace" id="workspace" aria-label="Sneezies workspace preview">
+      <div class="window-bar"><span></span><span></span><span></span><b>Sneezies</b><i>Local workspace</i></div>
+      <div class="tool-bar"><strong>Editor</strong><button>Lua</button><button>Python</button><button>JavaScript</button><div></div><button class="run">Run</button></div>
+      <pre><code><span class="muted">-- A simple Lua example</span>
+local message = <span class="string">"Hello from Sneezies!"</span>
+print(message)</code></pre>
+      <div class="output"><span>OUTPUT</span><code>Hello from Sneezies!</code></div>
+    </section>
+    <section class="grid" id="safety">
+      <article><p class="number">01</p><h2>Your code stays yours.</h2><p>Scripts are run through local language runtimes installed on your computer.</p></article>
+      <article><p class="number">02</p><h2>Pause on risky patterns.</h2><p>The built-in safety check flags common signs of destructive commands, persistence, credential targeting, and download-and-run behavior.</p></article>
+      <article><p class="number">03</p><h2>Use the right runtime.</h2><p>Select Lua, Python, or JavaScript and point Sneezies at the local runtime you want to use.</p></article>
+    </section>
+    <section class="start" id="getting-started"><p class="eyebrow">GETTING STARTED</p><h2>Open Sneezies from your desktop.</h2><p>Choose a language, select its local runtime, write a small script, then use Safety check before Run.</p></section>
+  </main>
+  <footer>© 2026 Sneezies · Local tools for learning and scripting.</footer>
+</body>
+</html>
